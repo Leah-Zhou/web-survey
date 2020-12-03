@@ -160,23 +160,20 @@ li,p{
   justify-items: center;
 }
 .title{
-  display: grid;
-  grid-template-columns: 140px auto 70px 70px;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
   align-content: center;
   background-color:rgba(15, 121,190,0.58);
   padding:0.5em 0 0.5em 0;
 }
-#top-review{
+.nav-style{
   justify-self: self-end;
   align-self: baseline;
+  cursor: pointer;
+  /* display: inline-block; */
+}
 
-}
-#top-home{
-  justify-self: self-end;
-  align-self: baseline;
-}
 
 .middle{
   /* grid-column:2/4; */
